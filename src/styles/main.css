@@ -106,11 +106,14 @@ body {
 }
 
 .game-list {
+    position: relative;
+    top: 25%;
     list-style: none;
-    padding: 0;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 
 .game-item {
